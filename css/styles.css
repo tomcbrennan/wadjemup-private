@@ -1255,6 +1255,10 @@ body {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:-top-20 {
+    top: -5rem;
+  }
+
   .max-sm\:w-full {
     width: 100%;
   }
@@ -1273,6 +1277,11 @@ body {
   .max-xs\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .max-xs\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
