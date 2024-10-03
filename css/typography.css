@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'BentonSans-Light';
+	src: url('../fonts/BentonSans-Light.otf') format('opentype');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BentonSans-Regular';
+	src: url('../fonts/BentonSans-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BentonSans-Medium';
+	src: url('../fonts/BentonSans-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BentonSans-Bold';
+	src: url('../fonts/BentonSans-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+html,
+body {
+	@apply font-normal;
+}
+
+body {
+	@apply text-brandDark text-lg 2xl:text-xl;
+}
+
+h1,
+.is-h1 {
+	@apply text-4xl lg:text-5xl 2xl:text-6xl font-medium;
+}
+
+h2,
+.is-h2 {
+	@apply text-3xl lg:text-4xl 2xl:text-5xl font-medium;
+}
+
+h3,
+.is-h3 {
+	@apply text-2xl lg:text-3xl 2xl:text-4xl font-medium;
+}
+
+h4,
+.is-h4 {
+	@apply text-xl lg:text-2xl 2xl:text-3xl font-medium;
+}
+
+.block-content {
+	@apply flex flex-col gap-6;
+}
