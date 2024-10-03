@@ -20,6 +20,10 @@ body {
 /* ACCORDIONS */
 
 .accordion-header {
+    &:hover {
+        @apply !bg-brandDark;
+    }
+
 	&.active {
         @apply !bg-brandDark;
 
