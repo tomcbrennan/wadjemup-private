@@ -14,9 +14,7 @@ function initAccordions() {
 		const isActive = header.classList.contains('active')
 
 		const accordionContent = header.nextElementSibling
-		accordionContent.style.maxHeight = isActive
-			? accordionContent.scrollHeight + 'px'
-			: 0
+		accordionContent.style.maxHeight = isActive ? accordionContent.scrollHeight + 'px' : 0
 
 		header.addEventListener('click', () => {
 			// Close all other accordions
@@ -48,28 +46,25 @@ function initTabs() {
 
 	tabGroups.forEach((tabGroup) => {
 		const tabs = tabGroup.querySelectorAll('[data-tab]')
-		const tabContents =
-			tabGroup.parentElement.querySelectorAll('[data-tab-content]')
+		const tabContents = tabGroup.parentElement.querySelectorAll('[data-tab-content]')
 
 		tabs.forEach((tab) => {
 			tab.addEventListener('click', () => {
 				const selectedTab = tab.getAttribute('data-tab')
 
 				tabs.forEach((t) => {
-					t.classList.remove('bg-brandDark', 'text-white')
-					t.classList.add('bg-transparent', 'text-brandDark')
+					t.classList.remove('bg-brandCyan', 'text-white')
+					t.classList.add('bg-transparent', 'text-brandCyan')
 				})
 
 				tabContents.forEach((content) => {
 					content.style.display = 'none'
 				})
 
-				tab.classList.add('bg-brandDark', 'text-white')
-				tab.classList.remove('bg-transparent', 'text-brandDark')
+				tab.classList.add('bg-brandCyan', 'text-white')
+				tab.classList.remove('bg-transparent', 'text-brandCyan')
 
-				const activeContent = tabGroup.parentElement.querySelector(
-					`[data-tab-content="${selectedTab}"]`
-				)
+				const activeContent = tabGroup.parentElement.querySelector(`[data-tab-content="${selectedTab}"]`)
 				if (activeContent) {
 					activeContent.style.display = 'block'
 				}

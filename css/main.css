@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-	@apply max-w-[1240px] w-full mx-auto px-6 md:px-10;
+	@apply max-w-[1100px] 2xl:max-w-[1240px] w-full mx-auto px-6 md:px-10;
 }
 
 .inner-py {
@@ -19,12 +19,10 @@ body {
 
 /* ACCORDIONS */
 
-.accordion-header.active {
-	.icon-container {
-		@apply bg-brandYellow;
-	}
-
+.accordion-header {
 	&.active {
+        @apply !bg-brandDark;
+
 		img {
 			@apply rotate-180;
 		}
@@ -32,8 +30,8 @@ body {
 }
 
 .accordion-content {
-	transition: max-height 0.4s ease;
-	@apply overflow-hidden max-h-0;
+	transition: max-height 0.6s ease;
+	@apply overflow-hidden max-h-0 px-3;
 }
 
 /* TABS */

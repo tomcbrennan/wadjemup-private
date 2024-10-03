@@ -33,7 +33,15 @@ body {
 }
 
 body {
-	@apply text-brandDark text-lg 2xl:text-xl;
+	@apply text-base md:text-lg 2xl:text-xl;
+}
+
+p {
+    @apply text-brandBlack;
+}
+
+ul {
+    @apply list-disc flex flex-col gap-2 ml-4;
 }
 
 h1,

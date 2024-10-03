@@ -16,6 +16,8 @@ module.exports = {
 				brandDark: '#00303D',
 				brandLight: '#00999C',
 				brandYellow: '#FAA932',
+				brandCyan: '#004D66',
+				brandBlack: '#231F20',
 			},
 			fontFamily: {
 				light: ['BentonSans-Light', 'sans-serif'],

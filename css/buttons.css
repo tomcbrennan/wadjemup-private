@@ -1,5 +1,5 @@
 .btn {
-	@apply text-brandDark duration-150 text-lg lg:text-xl bg-brandYellow font-medium w-fit relative rounded-full py-4 px-6 max-sm:w-full flex items-center justify-center text-center hover:brightness-90 !important;
+	@apply text-brandBlack duration-150 text-lg lg:text-xl bg-brandYellow font-medium w-fit relative rounded-full py-4 px-6 max-sm:w-full flex items-center justify-center text-center hover:brightness-90 !important;
 
 	&.btn-secondary {
 		@apply bg-brandLight text-white !important;
