@@ -33,7 +33,7 @@ body {
 }
 
 body {
-	@apply text-base md:text-lg 2xl:text-xl;
+	@apply text-base md:text-lg;
 }
 
 p {

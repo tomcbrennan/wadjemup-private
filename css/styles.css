@@ -951,13 +951,6 @@ body {
   }
 }
 
-@media (min-width: 1690px) {
-  body {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
 p {
   --tw-text-opacity: 1;
   color: rgb(35 31 32 / var(--tw-text-opacity));
