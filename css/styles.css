@@ -1357,6 +1357,10 @@ body {
     gap: 5rem;
   }
 
+  .lg\:gap-24 {
+    gap: 6rem;
+  }
+
   .lg\:pb-32 {
     padding-bottom: 8rem;
   }
