@@ -1,5 +1,5 @@
 .btn {
-	@apply text-brandBlack duration-150 text-lg lg:text-xl bg-brandYellow font-medium w-fit relative rounded-full py-4 px-6 max-sm:w-full flex items-center justify-center text-center hover:brightness-90 !important;
+	@apply text-brandBlack duration-150 text-lg lg:text-xl bg-brandYellow font-medium w-fit relative rounded-full py-4 px-6 max-sm:w-full flex items-center gap-3 justify-center text-center hover:brightness-90 !important;
 
 	&.btn-secondary {
 		@apply bg-brandLight text-white !important;
@@ -7,5 +7,18 @@
 
 	&:active {
 		@apply scale-95;
+	}
+}
+
+.return-container {
+	@apply mx-auto sticky bottom-0 left-0;
+
+	.return-btn {
+		@apply rounded-b-none rounded-t-[40px] w-full duration-500 z-50 !important;
+		animation: scale-in 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
+
+		&.active {
+			@apply !translate-y-0;
+		}
 	}
 }

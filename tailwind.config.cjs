@@ -1,5 +1,5 @@
 module.exports = {
-	content: ['./index.html'],
+	content: ['./index.html', './privacy.html', './terms-and-conditions.html'],
 	theme: {
 		extend: {
 			aspectRatio: {
