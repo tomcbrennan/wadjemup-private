@@ -20,7 +20,7 @@ module.exports = {
 				brandBlack: '#231F20',
 			},
 			fontFamily: {
-				light: ['BentonSans Light', 'sans-serif'],
+				light: ['BentonSans-Light', 'sans-serif'],
 				normal: ['BentonSans-Regular', 'sans-serif'],
 				medium: ['BentonSans-Medium', 'sans-serif'],
 				bold: ['BentonSans-Bold', 'sans-serif'],
