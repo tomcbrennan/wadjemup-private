@@ -906,51 +906,55 @@ video {
 }
 
 @font-face {
-  font-family: 'BentonSans-Light';
+  font-family: 'BentonSans-Medium';
 
-  src: url('../fonts/BentonSans-Light.otf') format('opentype');
+  font-weight: normal;
 
-  font-weight: 300;
+  font-style: normal;
 
   font-display: swap;
 
-  font-style: normal;
+  src: url('https://fastly-cloud.typenetwork.com/projects/5118/862_vdef_emp_7a2a.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
+	url('https://fastly-cloud.typenetwork.com/projects/5118/862_vdef_emp_7a2a.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 @font-face {
   font-family: 'BentonSans-Regular';
 
-  src: url('../fonts/BentonSans-Regular.otf') format('opentype');
+  font-weight: normal;
 
-  font-weight: 400;
+  font-style: normal;
 
   font-display: swap;
 
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BentonSans-Medium';
-
-  src: url('../fonts/BentonSans-Medium.otf') format('opentype');
-
-  font-weight: 500;
-
-  font-display: swap;
-
-  font-style: normal;
+  src: url('https://fastly-cloud.typenetwork.com/projects/5118/85e_vdef_e29bf09b24_7a29.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
+	url('https://fastly-cloud.typenetwork.com/projects/5118/85e_vdef_e29bf09b24_7a29.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 @font-face {
   font-family: 'BentonSans-Bold';
 
-  src: url('../fonts/BentonSans-Bold.otf') format('opentype');
+  font-weight: normal;
 
-  font-weight: 700;
+  font-style: normal;
 
   font-display: swap;
 
+  src: url('https://fastly-cloud.typenetwork.com/projects/5118/864_vdef_e29bf09b24_7a27.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
+	url('https://fastly-cloud.typenetwork.com/projects/5118/864_vdef_e29bf09b24_7a27.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
+}
+
+@font-face {
+  font-family: 'BentonSans-Light';
+
+  font-weight: normal;
+
   font-style: normal;
+
+  font-display: swap;
+
+  src: url('https://fastly-cloud.typenetwork.com/projects/5118/85c_vdef_e29bf09b24_7a28.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
+	url('https://fastly-cloud.typenetwork.com/projects/5118/85c_vdef_e29bf09b24_7a28.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 html,
