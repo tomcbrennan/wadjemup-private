@@ -3,8 +3,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url('https://fastly-cloud.typenetwork.com/projects/5118/862_vdef_emp_7a2a.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
-	url('https://fastly-cloud.typenetwork.com/projects/5118/862_vdef_emp_7a2a.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
+	src: url('https://fastly-cloud.typenetwork.com/projects/5118/862_vdef_emp_7a2a.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'), url('https://fastly-cloud.typenetwork.com/projects/5118/862_vdef_emp_7a2a.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 @font-face {
@@ -12,8 +11,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url('https://fastly-cloud.typenetwork.com/projects/5118/85e_vdef_e29bf09b24_7a29.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
-	url('https://fastly-cloud.typenetwork.com/projects/5118/85e_vdef_e29bf09b24_7a29.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
+	src: url('https://fastly-cloud.typenetwork.com/projects/5118/85e_vdef_e29bf09b24_7a29.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'), url('https://fastly-cloud.typenetwork.com/projects/5118/85e_vdef_e29bf09b24_7a29.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 @font-face {
@@ -21,8 +19,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url('https://fastly-cloud.typenetwork.com/projects/5118/864_vdef_e29bf09b24_7a27.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
-	url('https://fastly-cloud.typenetwork.com/projects/5118/864_vdef_e29bf09b24_7a27.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
+	src: url('https://fastly-cloud.typenetwork.com/projects/5118/864_vdef_e29bf09b24_7a27.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'), url('https://fastly-cloud.typenetwork.com/projects/5118/864_vdef_e29bf09b24_7a27.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 @font-face {
@@ -30,8 +27,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url('https://fastly-cloud.typenetwork.com/projects/5118/85c_vdef_e29bf09b24_7a28.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'),
-	url('https://fastly-cloud.typenetwork.com/projects/5118/85c_vdef_e29bf09b24_7a28.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
+	src: url('https://fastly-cloud.typenetwork.com/projects/5118/85c_vdef_e29bf09b24_7a28.woff2?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff2'), url('https://fastly-cloud.typenetwork.com/projects/5118/85c_vdef_e29bf09b24_7a28.woff?ddc0ee1b29f22d0bf691ca97fc73962a4cad3c8e') format('woff');
 }
 
 html,
@@ -47,8 +43,52 @@ p {
 	@apply text-brandBlack;
 }
 
+ul,
+ol {
+	@apply flex flex-col gap-2 pl-4;
+
+	li {
+		@apply pl-4;
+	}
+}
+
 ul {
-	@apply list-disc flex flex-col gap-2 ml-4;
+	@apply list-disc;
+}
+
+.list-custom {
+	@apply pl-8 sm:pl-[68px];
+
+	> li {
+		list-style: none;
+		counter-increment: section;
+
+		&::marker {
+			@apply pr-2;
+		}
+	}
+}
+
+.list-decimal-2 > li::marker {
+	content: '2.' counter(section) '. ';
+}
+.list-decimal-3 > li::marker {
+	content: '3.' counter(section) '. ';
+}
+.list-decimal-4 > li::marker {
+	content: '4.' counter(section) '. ';
+}
+.list-decimal-5 > li::marker {
+	content: '5.' counter(section) '. ';
+}
+.list-decimal-6 > li::marker {
+	content: '6.' counter(section) '. ';
+}
+.list-decimal-7 > li::marker {
+	content: '7.' counter(section) '. ';
+}
+.list-decimal-8 > li::marker {
+	content: '8.' counter(section) '. ';
 }
 
 h1,
