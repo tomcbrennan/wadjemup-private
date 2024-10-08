@@ -48,7 +48,7 @@ ol {
 	@apply flex flex-col gap-2 pl-4;
 
 	li {
-		@apply pl-4;
+		@apply pl-2 sm:pl-4;
 	}
 }
 

@@ -917,16 +917,32 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pl-9 {
-  padding-left: 2.25rem;
+.pl-\[34px\] {
+  padding-left: 34px;
 }
 
 .pt-16 {
   padding-top: 4rem;
 }
 
-.pl-\[34px\] {
-  padding-left: 34px;
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
 }
 
 .text-left {
@@ -1075,7 +1091,12 @@ ol {
   gap: 0.5rem;
   padding-left: 1rem;
   li {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+  }
+  @media (min-width: 640px) {
+    li {
+      padding-left: 1rem;
+    }
   }
 }
 
@@ -1522,20 +1543,12 @@ body:not(.page-privacy) {
     gap: 1.5rem;
   }
 
-  .sm\:pl-8 {
-    padding-left: 2rem;
+  .sm\:pl-\[34px\] {
+    padding-left: 34px;
   }
 
   .sm\:pl-\[52px\] {
     padding-left: 52px;
-  }
-
-  .sm\:pl-9 {
-    padding-left: 2.25rem;
-  }
-
-  .sm\:pl-\[34px\] {
-    padding-left: 34px;
   }
 }
 
