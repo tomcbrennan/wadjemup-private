@@ -57,7 +57,7 @@ ul {
 }
 
 .list-custom {
-	@apply pl-8 sm:pl-[68px];
+	@apply pl-8 sm:pl-[70px];
 
 	> li {
 		list-style: none;
